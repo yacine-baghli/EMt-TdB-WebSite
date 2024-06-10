@@ -1,0 +1,353 @@
+@charset "iso-8859-1";
+
+/* modif Pautex 11/2005 */
+a:link    	{ COLOR: #1C23AE; text-decoration: none }
+a:visited 	{ COLOR: #1C23AE; text-decoration: none }
+a:active  	{ COLOR: #1C23AE; text-decoration: none }
+a:hover   { COLOR: #1C23AE; font-weight: bold; text-decoration: none}
+
+.green-dot {
+	background-color: green;
+	border-radius: 50%;
+	width: 1px;
+	height: 1px;
+	display: inline-block;
+}
+
+.tb 	{
+	color: #202020;
+  	font-size: 10px;
+ 	font-family: Arial, Helvetica, sans-serif;
+	}
+
+/* style des tables */
+.tb td 	{
+  	color: #202020;
+  	font-size: 10px;
+  	font-family: verdana, sans-serif;
+	}
+
+.ct2	{ 
+	font-size: 13px; 
+	font-family: Arial, verdana, "MS Sans Serif";
+	color: #FFFFFF;
+	padding-left: 6px;
+	text-align:justify;
+}
+
+.ct3	{ 
+	padding-top: 3px;
+	padding-bottom: 2px;
+	font-size: 11px; 
+	font-family: Arial, verdana, "MS Sans Serif";
+	color: #202020;
+	padding-left: 6px;
+	text-align:left;
+}
+.ct4	{ 
+	font-size: 13px; 
+	font-family: Arial, verdana, "MS Sans Serif";
+	color: #FFFFFF;
+	background-color: #dddddd;
+	padding-left: 6px;
+	text-align:center;
+}
+.ct5	{ 
+	font-size: 13px; 
+	font-family: Arial, verdana, "MS Sans Serif";
+	color: #FFFFFF;
+	background-color: #AAAAAA;
+	padding-left: 6px;
+	text-align:left;
+}
+.ctcenter	{ 
+	font-size: 12px; 
+	font-family: Arial, verdana, "MS Sans Serif";
+	tr {
+		padding: 36px;
+		text-align:center;
+		}
+	text-align:center;
+}
+.ctcenter td{
+	vertical-align:middle;
+	text-align:center;
+	padding:10px;
+	font-size:10px;
+	font-family:Arial;
+	font-weight:normal;
+}
+
+body {
+	font-size: 10pt;
+	font-family: Verdana, "MS Sans Serif", Arial, Helvetica ;
+	width:1000px; 
+	text-align: left;
+	margin-right: auto;
+	margin-left: auto;
+	}
+	
+/* definition des balises de presentation texte texte au centre*/
+.sautpage	{page-break-before : always }
+h1	{
+	font-size: 		18px;
+	font-weight: 	bold;
+	}
+h1 em {
+	color: 			#0000AA;
+	font-size:		20pt;
+	font-style:		normal;
+	}
+h2	{
+	font-size:		14pt;
+	font-weight:	normal;
+	text-align:		center;
+	}
+	
+/* dans les publics titre sortant des data */
+.titre4		{
+	padding-top: 15px;
+	font-size:		14pt;
+	color: 		#0000cc;
+	font-weight: 	bold;
+	}
+.titreRouge		{
+	padding-top: 15px;
+	color: 		#FF0000;
+	font-weight: 	bold;
+	}
+.cind	{ 
+	padding-top: 5px;
+	font-size: 13px; 
+	font-family: verdana,Arial, "MS Sans Serif";
+	padding-left: 20px;
+	text-align:justify;
+	}
+.cindsmall	{ 
+	padding-top: 5px;
+	font-size: 11px; 
+	font-family: verdana,Arial, "MS Sans Serif";
+	padding-left: 20px;
+	text-align:justify;
+	}
+.crightsmall	{ 
+	padding-top: 5px;
+	font-size: 11px; 
+	font-family: verdana,Arial, "MS Sans Serif";
+	padding-left: 20px;
+	text-align:right;
+	}
+.ordinal {vertical-align:super;}
+
+.photo
+	{
+	width: 680px;
+	height: 450px;
+	background-color: #000;
+	background-position: center;
+	background-repeat: no-repeat;
+	}
+/* entete du site */
+#bandeau {
+	text-align: center;
+	}
+/* contenu du site */
+#header {
+/*	margin-left: 180px;*/
+	}
+#textright	{
+	text-align: 	right;
+	margin-right:	20px;
+	}
+/* ---------------- */
+.bandeau	{
+	float: 		center;
+	width:		1000px;
+	margin-top:	2px;
+	align-items:center;
+	text-align: center;
+	}
+.tlmlogo	{
+	/*border: 1px solid red;*/
+	float: 		left;
+	width:		150;
+	margin-top:	2px;
+	margin-right:	0px;
+	line-height:200%;
+	align-items:center;
+	text-align: center;
+	}
+.bandeaucenter	{
+	/*border: 1px solid black;*/
+	float: 		left;
+	margin:0 auto;
+	width:		696px;
+	margin-top:	2px;
+	
+	}
+.qrlogo	{
+/*	border: 1px solid green;*/
+	float: 		center;
+	margin:0 auto;
+	width:		150;
+	margin-top:	2px;
+	margin-left:	0px;
+	margin-right:	0px;
+	align-items:center;
+	text-align: center;
+	}
+.leftcadre	{
+/*	border: 1px solid green;*/
+	float: 		left;
+	width:		150px;
+	margin-top:	2px;
+	margin-right:	20px;
+	line-height:200%;
+	align-items:center;
+	text-align: center;
+	}
+.centercadre	{
+/*	border: 1px solid black;*/
+	margin:0 auto;
+	width:		680px;
+	margin-top:	2px;
+	}
+.centercadrejustify	{
+/*	border: 1px solid black;*/
+	margin:0 auto;
+	width:		680px;
+	margin-top:	2px;
+	text-align:justify;
+	}
+.rightcadre	{
+/*	border: 1px solid red;*/
+	float: 		right;
+	width:		150px;
+	margin-top:	2px;
+	margin-right:	5px;
+	}
+#textright	{
+	text-align: 	right;
+	}
+.headBleu	{
+	color: 		white;
+	font-size: 	12px;
+	padding-top: 2px;
+	font-weight: 	bold;
+	background-color: #2222BB;
+	height: 		16px;
+	border: 0px solid black;
+	border-bottom-width: 1px;
+	text-align: 	center;
+	margin-top: 	0;
+	line-height:100%;
+	}
+.espace		{
+	padding: 	5px;
+	}
+.grisbas	{	
+	border: 		0px solid;
+	border-top-width: 1px;
+	background-color: #C8C8C8;
+	height: 		6px;
+	}
+/* table telephone */
+#telephone td {
+	font-size: 	10px;
+	
+	}
+.ens	{
+	margin-top: 20px;
+	}
+.suite	{
+	background-color: #FFFFCC;
+	margin-top: 10px;
+	}
+.leftcadre li {
+	margin-left: 	-15px;
+	}
+#telephone a:hover {
+	font-weight: normal; 
+	text-decoration: underline;
+	}
+/* -------------------- */
+
+
+/*.child-left {*/
+/*	float: left;*/
+/*	height: 25px;*/
+/*	vertical-align: middle;*/
+/*}*/
+/*.child-left-decal {*/
+/*	float: left;*/
+/*	height: 25px;*/
+/*	margin-left:10px;*/
+/*	vertical-align: middle;*/
+/*}*/
+/*.childName-left {*/
+/*	float: left;*/
+/*  width: 60px;*/
+/*}*/
+
+/*.child-right {*/
+/*//	float: left;*/
+/*}*/
+
+
+/*.choix-filtre-left {*/
+/*	border: 1px solid blue;*/
+
+/*	display:inline-block; background-color:lightpink;*/
+
+/*}*/
+/*.floats-right {*/
+/*	float: right;*/
+/*}*/
+/*.floats-left {*/
+/*	 float: left;*/
+/* }*/
+
+
+.parent {
+	vertical-align: middle;
+	margin-top: 5px;
+}
+.parent_filter {
+	vertical-align: middle;
+	margin-top: 5px;
+}
+.parparent_filter {
+	background-color:lightpink;
+	margin-top: 5px;
+}
+.child_left_line {
+	display: inline-block;
+	vertical-align: middle;
+}
+.child_leftdecal_line {
+	display: inline-block;
+	margin-left:10px;
+	vertical-align: middle;
+ }
+.child_right_line {
+	display: inline-block;
+	float: right;
+	vertical-align: middle;
+}
+
+.child_left_news {
+	display: inline-block;
+	vertical-align: middle;
+	width:500px;
+}
+.child_right_filename {
+	 display: inline-block;
+	 margin-left:10px;
+	 vertical-align: middle;
+	 color: darkblue;
+
+	 background:lightgrey;
+	 width:300px;
+ }
+
+#map { height: 300px; }
